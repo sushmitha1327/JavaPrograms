@@ -14,6 +14,6 @@ public class UserInputDatatype {
 	        System.out.println("Score: " + score);
 	        System.out.println("Height: " + height);
 	        
-	        sc.close();  
+	        sc.close();
 	    }
 	}

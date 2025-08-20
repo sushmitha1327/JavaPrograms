@@ -1,4 +1,4 @@
-package com.testdemo.TestNG1;
+package Testdemo;
 
 import java.time.Duration;
 
@@ -16,12 +16,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.Assert;
 
-import junit.framework.Assert;
-
-public class Annotations {
+public class Annotation {
 	WebDriver driver;
-
 	@BeforeSuite
 	public void beforeSuite() {
 	System.out.println("Start of the suite");
@@ -87,4 +85,3 @@ public class Annotations {
 		 System.out.println("After suite method should work");
 	 }
 }
-

@@ -22,7 +22,5 @@ public class DragAndDrop {
         actions.dragAndDrop(source, target).perform();
 
         Assert.assertEquals(target.getText(), "Dropped!");
-
-
     }
 }

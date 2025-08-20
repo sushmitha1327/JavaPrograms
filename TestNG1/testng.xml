@@ -2,5 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+    <classes>
+      <class name="Day27.SyncException"/>
+      <class name="Day27.DragAndDrop"/>
+      <class name="Day27.DBTestWithSelenium"/>
+      <class name="Day27.HandlingMulWindows"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

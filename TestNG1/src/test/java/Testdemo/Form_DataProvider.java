@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 
 public class Form_DataProvider {
 	    WebDriver driver;
-
 	    @Test(dataProvider = "Form")
 	    public void register(String gender, String firstName, String lastName, String email, String password) throws InterruptedException {
 	        driver = new ChromeDriver();

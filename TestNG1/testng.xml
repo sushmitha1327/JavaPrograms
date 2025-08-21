@@ -3,10 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Day27.SyncException"/>
-      <class name="Day27.DragAndDrop"/>
-      <class name="Day27.DBTestWithSelenium"/>
-      <class name="Day27.HandlingMulWindows"/>
+      <class name="Day26.NopCommerceParallelExecution"/>
+      <class name="Day26.WebOrdersLoginTest"/>
+      <class name="Day26.Listener_Practice"/>
+      <class name="Day26.TestFile"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

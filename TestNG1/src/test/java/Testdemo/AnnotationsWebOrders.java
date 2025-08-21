@@ -28,7 +28,7 @@ public class AnnotationsWebOrders {
             e.printStackTrace();
         }
     }
-
+    
     @BeforeSuite
     public void beforeSuite() {
         System.out.println("=== Start of Test Suite ===");

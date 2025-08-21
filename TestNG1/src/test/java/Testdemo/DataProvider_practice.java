@@ -1,4 +1,4 @@
-package day25;
+package Testdemo;
 
 import java.time.Duration;
 
@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class DataProvider_Practice {
-  WebDriver driver;
+public class DataProvider_practice {
+WebDriver driver;
 	
 //	@BeforeClass
 //	public void launchBrowser() {

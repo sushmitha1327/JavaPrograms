@@ -20,7 +20,6 @@ public class LoginPage {
 	        driver.get("https://www.saucedemo.com/");
 	        System.out.println("Navigated to https://www.saucedemo.com/");
 	    }
-
 	    @Test
 	    public void validLoginAndAddToCart() {
 	        // Enter username

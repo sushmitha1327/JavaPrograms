@@ -23,8 +23,6 @@ public class SearchFunctionalityTest {
 	public Object[][] searchData(){
 			return new Object[][] {
 				{"selenium"},{"testng"},{"automation"}
-			};
-				
-			
+			};			
 	}
 	}

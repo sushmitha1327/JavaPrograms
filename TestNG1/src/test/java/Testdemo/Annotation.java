@@ -35,8 +35,7 @@ public class Annotation {
 		
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://opensource-demo.orangehrmlive.com/");
-		
+		driver.get("https://opensource-demo.orangehrmlive.com/");	
 	}
 	@BeforeMethod
 	public void beforeMethod() {
